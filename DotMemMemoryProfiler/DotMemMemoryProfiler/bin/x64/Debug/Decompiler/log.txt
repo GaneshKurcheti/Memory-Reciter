@@ -1,0 +1,17 @@
+
+[--- Copyright (c) 2011-2017 Telerik AD. All rights reserved. ---]
+==================================================================
+
+Generates MS Visual Studio(r) Project from .NET assembly.
+
+Project Creation:
+============================
+ 1.Program.cs
+ 2.BinaryTools.cs
+ 3.AssemblyInfo.cs
+ 4.FloatAddition.csproj
+ 5.FloatAddition.sln
+
+============================
+Finished in 1.0 seconds.
+
