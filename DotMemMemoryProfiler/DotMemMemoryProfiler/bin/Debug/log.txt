@@ -1,0 +1,17 @@
+
+[--- Copyright (c) 2011-2017 Telerik AD. All rights reserved. ---]
+==================================================================
+
+Generates MS Visual Studio(r) Project from .NET assembly.
+
+Project Creation:
+============================
+ 1.Program.cs
+ 2.AssemblyInfo.cs
+ 3.App.config
+ 4.ConsoleApplication2.csproj
+ 5.ConsoleApplication2.sln
+
+============================
+Finished in 4.5 seconds.
+

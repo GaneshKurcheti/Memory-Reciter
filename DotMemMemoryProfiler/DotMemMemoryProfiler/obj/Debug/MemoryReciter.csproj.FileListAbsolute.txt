@@ -1,0 +1,203 @@
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe.config
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.pdb
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.pdb
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.xml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.g.cs
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.g.cs
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\App.g.cs
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.cache
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.lref
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.baml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.baml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.g.resources
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.exe
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.pdb
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.g.cs
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.baml
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Mono.Reflection.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csprojResolveAssemblyReference.cache
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nagaganesh.kurcheti\Documents\Visual Studio 2015\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe.config
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.pdb
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.EF6.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.Linq.dll
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.pdb
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.pdb
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.xml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csprojAssemblyReference.cache
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.g.cs
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.g.cs
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.g.cs
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\App.g.cs
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.cache
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.lref
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.baml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.baml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.baml
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.g.resources
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csproj.CoreCompileInputs.cache
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csproj.CopyComplete
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.exe
+E:\ServerCode\Projects\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.pdb
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe.config
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.pdb
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.pdb
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.pdb
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.xml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csprojResolveAssemblyReference.cache
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.g.cs
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.g.cs
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.g.cs
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\App.g.cs
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.cache
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.lref
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.baml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.baml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.baml
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.g.resources
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csproj.CoreCompileInputs.cache
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.exe
+E:\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.pdb
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe.config
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.pdb
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.pdb
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.pdb
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.xml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csprojResolveAssemblyReference.cache
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.g.cs
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.g.cs
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.g.cs
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\App.g.cs
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.cache
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.lref
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.baml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.baml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.baml
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.g.resources
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csproj.CoreCompileInputs.cache
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.exe
+E:\Real\Memo-Reciter-dev\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.pdb
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe.config
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.exe
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\DotMemMemoryProfiler.pdb
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\EntityFramework.SqlServer.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\FontAwesome.WPF.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.pdb
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.pdb
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\LiveCharts.Wpf.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Newtonsoft.Json.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\Ookii.Dialogs.Wpf.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\bin\Debug\System.Data.SQLite.xml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csprojResolveAssemblyReference.cache
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.g.cs
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.g.cs
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.g.cs
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\App.g.cs
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.cache
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler_MarkupCompile.lref
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\AnalyzingWindow.baml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MainWindow.baml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\SnapshotData.baml
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.g.resources
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\MemoryReciter.csproj.CoreCompileInputs.cache
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.exe
+E:\Real\Memo-Reciter\DotMemMemoryProfiler\DotMemMemoryProfiler\obj\Debug\DotMemMemoryProfiler.pdb
