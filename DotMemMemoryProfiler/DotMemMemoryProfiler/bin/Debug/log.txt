@@ -7,11 +7,11 @@ Generates MS Visual Studio(r) Project from .NET assembly.
 Project Creation:
 ============================
  1.Program.cs
- 2.AssemblyInfo.cs
- 3.App.config
- 4.ConsoleApplication2.csproj
- 5.ConsoleApplication2.sln
+ 2.BinaryTools.cs
+ 3.AssemblyInfo.cs
+ 4.FloatAddition.csproj
+ 5.FloatAddition.sln
 
 ============================
-Finished in 4.5 seconds.
+Finished in 2.2 seconds.
 
