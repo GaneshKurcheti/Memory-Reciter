@@ -39,11 +39,12 @@ Get the latest Release [here](https://github.com/GaneshKurcheti/Memo-Reciter/rel
 
 ![ProfilingPage4](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-4.png)
 
-![ProfilingPage5](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-5.png)
-
 ![ProfilingPage6](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-6.png)
 
 ![ProfilingPage7](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-7.png)
+
+![ProfilingPage8](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-8.png)
+
 
 
 #### Analyzing Window
@@ -58,16 +59,16 @@ Get the latest Release [here](https://github.com/GaneshKurcheti/Memo-Reciter/rel
 
 #### Pdb Browser Window
 
-![PdbBrowser](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/PdbBrowserPage.png)
+![PdbBrowser](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/PdbBroswerPage.png)
 
 
 ## Issues
 
-Nothing is perfect..... Please don't hesitate to create issues or suggestions. All issues will be reviewed and answered as soon as possible.
+Nothing is perfect.....I agree that there is really a long way to go...... Please don't hesitate to create issues or suggestions. All issues will be reviewed and answered as soon as possible.
 
 ## Contributions
 
-I know there is really long way to go...... so I welcome all contributions and ideas. We will have discussions based on each contribution and then can make this application grow further.
+Contributions are always welcomed!!! Please fork and create pull request(don't forget to follow the basic standards)... If you have any further questions let me know.
 
 
 
