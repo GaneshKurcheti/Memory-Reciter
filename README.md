@@ -68,7 +68,7 @@ Nothing is perfect.....I agree that there is really a long way to go...... Pleas
 
 ## Contributions
 
-Contributions are always welcomed!!! Please fork and create pull request(don't forget to follow the basic standards)... If you have any further questions let me know.
+Contributions are always welcome!!! Please fork and create pull request(don't forget to follow the basic standards)... If you have any further questions let me know.
 
 
 
