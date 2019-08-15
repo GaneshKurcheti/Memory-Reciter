@@ -1,8 +1,10 @@
-# Memory Reciter(BETA) - Essential memory profiler for a .NET Process
+# Memory Reciter(BETA) - A Memory Profiler for a Managed .NET process.
 
 Memory Reciter is a free and opensource tool for finding memory leaks and optimizing the memory usage in .NET applications. You can track down the cause of memory problems, by finding out which objects use more memory and which objects are surviving the longest. Apart from identifying the memory leaks, it comes with added functionalities like analyzing the exe file to get the method level details, digging the pdb information and generating code that helps the user to optimize the code for effective execution. And yes you can visualize the heap contents using Memory Recitor.
 
 _Memory reciter gives the user more  granular level data  i.e. user can view the very minute level details that an object comprises of while all other memory profilers limit data to object level .This functionality lets user to uniquely identify the object responsible for memory leak._**
+
+Get the latest Release [here](https://github.com/GaneshKurcheti/Memo-Reciter/releases)
 
 ## Memory Reciter Functionalities
 
@@ -20,7 +22,61 @@ _Memory reciter gives the user more  granular level data  i.e. user can view the
 
 ## Usage
 
-#### HomePage
+#### Home Window
+
+![HomePage](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/Homepage-1.png)
+
+![HomePage2](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/HomePage-2.png)
+
+
+#### Profiling Window
+
+![ProfilingPage1](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-1.png)
+
+![ProfilingPage2](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-2.png)
+
+![ProfilingPage3](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-3.png)
+
+![ProfilingPage4](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-4.png)
+
+![ProfilingPage5](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-5.png)
+
+![ProfilingPage6](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-6.png)
+
+![ProfilingPage7](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/ProfilingPage-7.png)
+
+
+#### Analyzing Window
+
+![AnalyzingPage1](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/AnalyzePage-1.png)
+
+
+#### GenerateCode Window
+
+![GenerateCode1](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/GenerateCodePage.png)
+
+
+#### Pdb Browser Window
+
+![PdbBrowser](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/PdbBrowserPage.png)
+
+
+## Issues
+
+Nothing is perfect..... Please don't hesitate to create issues or suggestions. All issues will be reviewed and answered as soon as possible.
+
+## Contributions
+
+I know there is really long way to go...... so I welcome all contributions and ideas. We will have discussions based on each contribution and then can make this application grow further.
+
+
+
+
+
+
+
+
+
 
 
 
