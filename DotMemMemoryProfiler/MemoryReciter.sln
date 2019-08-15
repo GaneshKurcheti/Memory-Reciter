@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryReciter", "DotMemMemoryProfiler\MemoryReciter.csproj", "{0FB9E468-F305-4D58-913E-85C8F8F73D92}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MemoryReciterSetup", "MemoryReciterSetup\MemoryReciterSetup.vdproj", "{303914A4-DE6A-4970-8CEA-10FBD3A2AAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Debug|x64.ActiveCfg = Debug|x64
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Debug|x64.Build.0 = Debug|x64
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Release|x64.ActiveCfg = Release|x64
+		{0FB9E468-F305-4D58-913E-85C8F8F73D92}.Release|x64.Build.0 = Release|x64
+		{303914A4-DE6A-4970-8CEA-10FBD3A2AAF7}.Debug|Any CPU.ActiveCfg = Debug
+		{303914A4-DE6A-4970-8CEA-10FBD3A2AAF7}.Debug|x64.ActiveCfg = Debug
+		{303914A4-DE6A-4970-8CEA-10FBD3A2AAF7}.Release|Any CPU.ActiveCfg = Release
+		{303914A4-DE6A-4970-8CEA-10FBD3A2AAF7}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD66E59C-1E28-43B2-920F-FBA64A5FFD54}
+	EndGlobalSection
+EndGlobal

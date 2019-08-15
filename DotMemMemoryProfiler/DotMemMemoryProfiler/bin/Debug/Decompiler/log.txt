@@ -1,0 +1,50 @@
+
+[--- Copyright (c) 2011-2017 Telerik AD. All rights reserved. ---]
+==================================================================
+
+Generates MS Visual Studio(r) Project from .NET assembly.
+
+Project Creation:
+============================
+ 1.AssetOperationTypeEnum.cs
+ 2.AssetTypeEnum.cs
+ 3.LocationEnum.cs
+ 4.DepEnum.cs
+ 5.RoleEnum.cs
+ 6.SettingsEnum.cs
+ 7.StatusEnum.cs
+ 8.SettingsTypeEnum.cs
+ 9.ValidationEnum.cs
+ 10.SoftwareReportCount.cs
+ 11.AssetSoftwaretbl.cs
+ 12.EventDetail.cs
+ 13.Settingstbl.cs
+ 14.AssetLogtbl.cs
+ 15.EmailInfotbl.cs
+ 16.AssetInfotbl.cs
+ 17.AssetSoftwaretbl.cs
+ 18.AssetUsertbl.cs
+ 19.ErrorLogtbl.cs
+ 20.Departmenttbl.cs
+ 21.Usertbl.cs
+ 22.AssetOperationTypetbl.cs
+ 23.Locationtbl.cs
+ 24.AssetInfoUpdateEnum.cs
+ 25.AssetModeltbl.cs
+ 26.APIUpdateStatusEnum.cs
+ 27.Assettbl.cs
+ 28.AssetServiceUpdateLogtbl.cs
+ 29.Manufacturertbl.cs
+ 30.AssetSoftwareLogtbl.cs
+ 31.AssetTypetbl.cs
+ 32.Configs.cs
+ 33.Encryption.cs
+ 34.AMSEmail.cs
+ 35.ServiceCall.cs
+ 36.AssemblyInfo.cs
+ 37.DomainModel.csproj
+ 38.DomainModel.sln
+
+============================
+Finished in 3.0 seconds.
+
