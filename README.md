@@ -84,10 +84,10 @@ Memory Reciter, A free and open source Memory profiler thus can highly used to d
 Nothing is perfect.....I agree that there is really a long way to go...... Please don't hesitate to create issues or suggestions. All issues will be reviewed and answered as soon as possible.
 ## Contributors Behind the scene
 
-Kishore Ithadi
-Ayush Thakur
-Baresh Bairam
-Shilpa Tippana
+* Kishore Ithadi
+* Ayush Thakur
+* Baresh Bairam
+* Shilpa Tippana
 
 ## Contributions
 
