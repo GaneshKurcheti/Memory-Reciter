@@ -86,7 +86,7 @@ Nothing is perfect.....I agree that there is really a long way to go...... Pleas
 
 * Kishore Ithadi
 * Ayush Thakur
-* Baresh Bairam
+* Naresh Bairam
 * Shilpa Tippana
 
 ## Contributions
