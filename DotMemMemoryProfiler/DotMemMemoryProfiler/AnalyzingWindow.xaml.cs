@@ -740,6 +740,7 @@ namespace DotMemMemoryProfiler
                     }
                     catch (SQLiteException e1)
                     {
+                        Console.Write(e);
                     }
                     allHeapObjectsButton.Visibility = Visibility.Visible;
                     treeViewForAssemblyDetails.Visibility = Visibility.Visible;

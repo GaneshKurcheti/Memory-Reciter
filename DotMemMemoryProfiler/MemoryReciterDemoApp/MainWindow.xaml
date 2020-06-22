@@ -1,0 +1,24 @@
+﻿<Window x:Class="MemoryReciterDemoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryReciterDemoApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="223.333" Width="390.78">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="225,0,151.8,11.8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Memory Reciter Demo App" HorizontalAlignment="Center" Margin="-154,9,-105,122" VerticalAlignment="Center" Height="37" Width="259" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Create Demo1 object" HorizontalAlignment="Left" Margin="-195,53,0,0" VerticalAlignment="Top" Width="134" Height="20" Background="#FF2367A4" Foreground="White" RenderTransformOrigin="-0.239,0.513" Click="Button_Click"/>
+        <Label Content="Total Demo1 created so far:" HorizontalAlignment="Left" Margin="-195,71,-21,0" VerticalAlignment="Top" Height="29" Width="216" FontSize="14"/>
+        <Button Content="Create Demo2 object" HorizontalAlignment="Left" Margin="-20,53,-109.8,0" VerticalAlignment="Top" Width="136" Height="20" Background="#FF2367A4" Foreground="White" RenderTransformOrigin="-0.239,0.513" Click="Button_Click_1"/>
+        <Label Content="Total Demo2 created so far:" HorizontalAlignment="Left" Margin="-195,100,-21,-6.8" Width="216" FontSize="14" RenderTransformOrigin="0.485,0.777" Grid.RowSpan="2"/>
+        <Label x:Name="testObjects1Count" Content="" HorizontalAlignment="Left" Margin="16,74,-116,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="testObjects2Count" Content="" HorizontalAlignment="Left" Margin="16,100,-116,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="removeReferenceButton" Content="Clear all strong references to the objects" HorizontalAlignment="Left" Margin="-154,126,-105,0" VerticalAlignment="Top" Width="259" Height="20" Background="#FF2367A4" Foreground="White" RenderTransformOrigin="-0.239,0.513" Click="Button_Click_3"/>
+        <Button x:Name="gcButton" Content="Initialize Garbage collector" HorizontalAlignment="Left" Margin="-154,151,-105,0" VerticalAlignment="Top" Width="259" Height="20" Background="#FF2367A4" Foreground="White" RenderTransformOrigin="-0.239,0.513"  Grid.RowSpan="2" Click="Button_Click_2"/>
+    </Grid>
+</Window>
