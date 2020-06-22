@@ -22,6 +22,7 @@ Never go with "Out of memory" using meory reciter.........Get the latest Release
 
 ## Usage
 
+[![Memory reciter demo](https://github.com/GaneshKurcheti/Memo-Reciter/blob/master/Media/image-10.jpg)](https://youtu.be/0HfWZCkCNDs "Memory Reciter")
 #### Home Window
 
 Home window has of this memory profiler has two options
