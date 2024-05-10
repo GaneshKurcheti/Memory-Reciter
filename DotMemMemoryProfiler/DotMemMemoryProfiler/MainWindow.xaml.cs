@@ -185,16 +185,18 @@ namespace DotMemMemoryProfiler
         /// <param name="e"></param>
         private void browsingExeButton_Click(object sender, RoutedEventArgs e)
         {
-            string fileName;
             OpenFileDialog fd = new OpenFileDialog();
             fd.ShowDialog();
             string fileName22 = fd.FileName;
             if (fileName22 != null && fileName22.EndsWith(".exe"))
             {
-                Process.Start(fileName22);
-                fileName = fileName22.Substring(fileName22.LastIndexOf("\\") + 1, (fileName22.Length - fileName22.LastIndexOf("\\")) - 1);
-                fileName = fileName.Substring(0, fileName.LastIndexOf("."));
-                Process proc = Process.GetProcessesByName(fileName)[0];
+                var startInfo = new ProcessStartInfo
+                {
+                    FileName = fileName22,
+                    WorkingDirectory = Path.GetDirectoryName(fileName22)
+                };
+                var proc = Process.Start(startInfo);
+                var fileName = Path.GetFileNameWithoutExtension(fileName22);
                 string platformFinder = "Undefined:";
                 try
                 {
@@ -238,8 +240,7 @@ namespace DotMemMemoryProfiler
                     //{                      
                     //    CopyIfNotExits(file.DirectoryName, location, file.Name);                     
                     //}
-                    int processId = Process.GetProcessesByName(fileName)[0].Id;
-                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName,"32",processId);
+                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName, "32", proc.Id);
                     newWindow.Show();
                     this.Close();                  
                 }
@@ -253,14 +254,13 @@ namespace DotMemMemoryProfiler
                     //{
                     //    CopyIfNotExits(file.DirectoryName, location, file.Name);
                     //}
-                    int processId = Process.GetProcessesByName(fileName)[0].Id;
-                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName, fileName22,"64",processId);
+                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName, fileName22, "64", proc.Id);
                     newWindow.Show();
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("couldnot get data of that process sorry :(");
+                    MessageBox.Show("could not get data of that process sorry :(");
                 }
             }
         }
