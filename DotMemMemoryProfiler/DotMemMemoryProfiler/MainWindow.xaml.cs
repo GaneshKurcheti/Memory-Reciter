@@ -96,11 +96,11 @@ namespace DotMemMemoryProfiler
         /// Creating Directory If not found in given path.
         /// </summary>
         /// <param name="path"></param>
-        private void CreateIfMissing(string path)
-        {
-            Directory.CreateDirectory((path + "x64"));
-            Directory.CreateDirectory(path + "x86");
-        }
+        //private void CreateIfMissing(string path)
+        //{
+        //    Directory.CreateDirectory(Path.Combine(path, "x64"));
+        //    Directory.CreateDirectory(Path.Combine(path, "x86"));
+        //}
         /// <summary>
         /// Copying files from specified source to destination.
         /// </summary>
@@ -185,41 +185,18 @@ namespace DotMemMemoryProfiler
         /// <param name="e"></param>
         private void browsingExeButton_Click(object sender, RoutedEventArgs e)
         {
-            string fileName;
             OpenFileDialog fd = new OpenFileDialog();
             fd.ShowDialog();
-            string fileName22 = fd.FileName;
-            if (fileName22 != null && fileName22.EndsWith(".exe"))
+            if (fd.FileName.EndsWith(".exe"))
             {
-                Process.Start(fileName22);
-                fileName = fileName22.Substring(fileName22.LastIndexOf("\\") + 1, (fileName22.Length - fileName22.LastIndexOf("\\")) - 1);
-                fileName = fileName.Substring(0, fileName.LastIndexOf("."));
-                Process proc = Process.GetProcessesByName(fileName)[0];
-                string platformFinder = "Undefined:";
+                var proc = Process.Start(fd.FileName);
+                var platformFinder = GetBitSize(proc);
                 try
                 {
-                    platformFinder = (proc.IsWin64Emulator() ? "32bit" : "64bit");
-                }
-                catch (Win32Exception ex)
-                {
-                    if (ex.NativeErrorCode != 0x00000005)
-                    {
-                        throw;
-                    }
-                }               
-                try
-                {
-                    if (platformFinder == "64bit")
-                    {
-                        fileLocation = fileName22;
-                    }
-                    else
-                    {
-                        fileLocation = proc.MainModule.FileName;
-                    }
-                    var fileName2 = fileLocation.Substring(0, fileLocation.LastIndexOf("\\") + 1);
-                    CreateIfMissing(fileName2);
-                    var currentDirectory = Directory.GetCurrentDirectory();
+                    fileLocation = proc.MainModule.FileName;
+                    //var fileName2 = Path.GetDirectoryName(fileLocation);
+                    //CreateIfMissing(fileName2);
+                    //var currentDirectory = Directory.GetCurrentDirectory();
                     //CopyIfNotExits(currentDirectory, fileName2, "System.Data.SQLite.dll");
                     //CopyIfNotExits(currentDirectory + "\\x64", fileName2 + "x64", "SQLite.Interop.dll");
                     //CopyIfNotExits(currentDirectory + "\\x86", fileName2 + "x86", "SQLite.Interop.dll");
@@ -228,9 +205,9 @@ namespace DotMemMemoryProfiler
                 {
                     MessageBox.Show("Sorry  could not locate main module of the specified file:( try other or check with io permissions");
                 }
-                if (platformFinder == "32bit" && fileLocation != "EMPTY")
+                if (!string.IsNullOrEmpty(platformFinder) && fileLocation != "EMPTY")
                 {
-                    //DirectoryInfo d = new DirectoryInfo(@".\Profiler32");
+                    //DirectoryInfo d = new DirectoryInfo(@".\Profiler" + platformFinder);
                     //FileInfo[] Files = d.GetFiles("*.dll");
                     //string location = Process.GetCurrentProcess().MainModule.FileName;
                     //location = location.Substring(0, location.LastIndexOf("\\"));
@@ -238,38 +215,41 @@ namespace DotMemMemoryProfiler
                     //{                      
                     //    CopyIfNotExits(file.DirectoryName, location, file.Name);                     
                     //}
-                    int processId = Process.GetProcessesByName(fileName)[0].Id;
-                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName,"32",processId);
-                    newWindow.Show();
-                    this.Close();                  
-                }
-                else if (platformFinder == "64bit" && fileLocation != "EMPTY")
-                {
-                    //DirectoryInfo d = new DirectoryInfo(@".\Profiler64");
-                    //FileInfo[] Files = d.GetFiles("*.dll");
-                    //string location = Process.GetCurrentProcess().MainModule.FileName;
-                    //location = location.Substring(0, location.LastIndexOf("\\"));
-                    //foreach (FileInfo file in Files)
-                    //{
-                    //    CopyIfNotExits(file.DirectoryName, location, file.Name);
-                    //}
-                    int processId = Process.GetProcessesByName(fileName)[0].Id;
-                    AnalyzingWindow newWindow = new AnalyzingWindow(fileName, fileName22,"64",processId);
+                    var newWindow = new AnalyzingWindow(fd.FileName, platformFinder, proc.Id);
                     newWindow.Show();
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("couldnot get data of that process sorry :(");
+                    MessageBox.Show("could not get data of that process sorry :(");
                 }
             }
         }
+
+        private static string GetBitSize(Process proc)
+        {
+            var platformFinder = "";
+            try
+            {
+                platformFinder = proc.IsWin64Emulator() ? "32" : "64";
+            }
+            catch (Win32Exception ex)
+            {
+                if (ex.NativeErrorCode != 0x00000005)
+                {
+                    throw;
+                }
+            }
+
+            return platformFinder;
+        }
+
         /// <summary>
         /// This Event Handler is used to refresh the Running Processes. 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-         private async void refreshButton_Click(object sender, RoutedEventArgs e)
+        private async void refreshButton_Click(object sender, RoutedEventArgs e)
         {
             LoadingTextBox.Visibility = Visibility.Hidden;
             loaderForRefresh.Visibility = Visibility.Visible;
@@ -305,92 +285,50 @@ namespace DotMemMemoryProfiler
         /// <param name="e"></param>
         private void Row_DoubleClick(object sender, MouseButtonEventArgs e)
         {
-            string processName = "";
+            int processId = 0;
             if (dataGridForAllProcess.SelectedItems.Count > 0)
             {
                 for (int i = 0; i < dataGridForAllProcess.SelectedItems.Count; i++)
                 {
                     DataRowView selectedFile = (DataRowView)dataGridForAllProcess.SelectedItems[i];
-                    processName = Convert.ToString(selectedFile.Row.ItemArray[1]);
+                    processId = (int)selectedFile.Row.ItemArray[0];
                 }
             }
-            Process proc = null;
+            Process proc;
             try
             {
-                proc = Process.GetProcessesByName(processName)[0];
+                proc = Process.GetProcessById(processId);
             }
-            catch(IndexOutOfRangeException excep)
+            catch
             {
                 MessageBox.Show("Process may be closed or currently out of scope");
                 return;
             }
-            string platformFinder = "Undefined:";
+            var platformFinder = GetBitSize(proc);
             try
             {
-                platformFinder = (proc.IsWin64Emulator() ? "32bit" : "64bit");
-            }
-            catch (Win32Exception ex)
-            {
-                if (ex.NativeErrorCode != 0x00000005)
-                {
-                    throw;
-                }
-            }
-          
-            try
-            {
-                try
-                {
-                    fileLocation = proc.MainModule.FileName;
-                }
-                catch
-                {
-                    MessageBox.Show("since it process is 64 bit please select the main module of the program");
-                    OpenFileDialog fd = new OpenFileDialog();
-                    fd.ShowDialog();
-                    if (fd.FileName != null && fd.FileName.EndsWith(".exe"))
-                    {
-                        fileLocation = fd.FileName;
-                    }
-                }
-                var fileName2 = fileLocation.Substring(0, fileLocation.LastIndexOf("\\") + 1);
-                CreateIfMissing(fileName2);
-                var currentDirectory = Directory.GetCurrentDirectory();
+                fileLocation = proc.MainModule.FileName;
+                //var fileName2 = Path.GetDirectoryName(fileLocation);
+                //CreateIfMissing(fileName2);
+                //var currentDirectory = Directory.GetCurrentDirectory();
                 //CopyIfNotExits(currentDirectory, fileName2, "System.Data.SQLite.dll");
                 //CopyIfNotExits(currentDirectory + "\\x64", fileName2 + "x64", "SQLite.Interop.dll");
                 //CopyIfNotExits(currentDirectory + "\\x86", fileName2 + "x86", "SQLite.Interop.dll");
             }
             catch
             {
-                MessageBox.Show("Sorry  could not locate main module of the specified file:( try other or checkek with io permissions");
+                MessageBox.Show("Sorry could not locate main module of the specified file:( try other or checkek with io permissions");
             }
-            if (platformFinder == "32bit" && fileLocation != "EMPTY")
+            if (!string.IsNullOrEmpty(platformFinder) && fileLocation != "EMPTY")
             {
-
-                var fileName2 = fileLocation.Substring(0, fileLocation.LastIndexOf("\\"));
-                //DirectoryInfo d = new DirectoryInfo(@".\Profiler32");
+                //var fileName2 = Path.GetDirectoryName(fileLocation);
+                //DirectoryInfo d = new DirectoryInfo(@".\Profiler" + platformFinder);
                 //FileInfo[] Files = d.GetFiles("*.dll");               
                 //foreach (FileInfo file in Files)
                 //{
                 //    CopyIfNotExits(file.DirectoryName, fileName2, file.Name);
                 //}
-                int processId = Process.GetProcessesByName(processName)[0].Id;
-                AnalyzingWindow newWindow = new AnalyzingWindow(processName,"32",processId);
-                newWindow.Show();
-                this.Close();           
-            }
-            else if (platformFinder == "64bit" && fileLocation != "EMPTY")
-            {
-                //var fileName2 = fileLocation.Substring(0, fileLocation.LastIndexOf("\\"));
-                //DirectoryInfo d = new DirectoryInfo(@".\Profiler64");
-                //FileInfo[] Files = d.GetFiles("*.dll");               
-                //foreach (FileInfo file in Files)
-                //{
-
-                //    CopyIfNotExits(file.DirectoryName, fileName2, file.Name);
-                //}
-                int processId = Process.GetProcessesByName(processName)[0].Id;
-                AnalyzingWindow newWindow = new AnalyzingWindow(processName, fileLocation,"64",processId);
+                AnalyzingWindow newWindow = new AnalyzingWindow(fileLocation, platformFinder, proc.Id);
                 newWindow.Show();
                 this.Close();
             }

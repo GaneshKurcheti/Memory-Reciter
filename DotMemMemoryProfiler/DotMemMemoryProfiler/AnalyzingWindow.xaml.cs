@@ -20,7 +20,7 @@ using Newtonsoft.Json;
 namespace DotMemMemoryProfiler
 {
     /// <summary>
-    /// Interaction logic for AnalyzingWindow32.xaml
+    /// Interaction logic for AnalyzingWindow.xaml
     /// </summary>
     public partial class AnalyzingWindow : Window
     {
@@ -28,58 +28,28 @@ namespace DotMemMemoryProfiler
         public string connection = @"Data Source=" + path + @"\ProfilerData.sqlite;Version=3; FailIfMissing=True; Foreign Keys=True;";
         private string currentMethod;
         public string processName;
-        int processId;
+        private readonly int processId;
         int clickcounter = 0;
         private string totalPath;
-        string processEnvironment;
+        private readonly string processEnvironment;
         private int snapshotCounter = 0;
         public string profilerDataConnection;
         //Dictionary<int, Dictionary<string, ObjectDetails>> snapshotDataHolder = new Dictionary<int, Dictionary<string, ObjectDetails>>();
         Dictionary<int, ObservableCollection<AppDomainDetails>> appDomaianDataHolder = new Dictionary<int, ObservableCollection<AppDomainDetails>>();
         Dictionary<int, ObservableCollection<HeapHelper.HeapData>> heapDataHolder = new Dictionary<int, ObservableCollection<HeapHelper.HeapData>>();
         AssemblyExaminer assemblyDataHolder = new AssemblyExaminer();
-        /// <summary>
-        /// Constructor that takes 2 arguments (is used for 32 bit processes).
-        /// </summary>
-        /// <param name="message"></param>
-        /// <param name="bit"></param>
         Stopwatch stopwatch;
-        public AnalyzingWindow(string message, string bit, int processId)
-        {
-            stopwatch = Stopwatch.StartNew();
-            InitializeComponent();
-            processName = message;
-            this.processId = processId;
-            Helper x = new Helper(processName, this.processId);
-            x._timer.Start();
-            this.DataContext = x;
-            clickcounter = 1;
-            totalPath = Process.GetProcessesByName(processName)[0].MainModule.FileName;
-            processEnvironment = bit;
-            Closing += AnalyzingWindow_Closing;
-            try
-            {
-                Directory.CreateDirectory(path);
-                File.Create(path + @"\ProfilerData.sqlite");
-            }
-            catch
-            {
-                MessageBox.Show("Database is being accessed by some other program or may be other instance of same program please stop the process and cancel the Messgae box to get reliable data ");
-            }
-
-
-        }
         /// <summary>
-        /// Constructor that takes 3 arguments (is used for 64 bit processes).
+        /// 
         /// </summary>
-        /// <param name="message"></param>
         /// <param name="exePath"></param> 
         /// <param name="bit"></param> 
-        public AnalyzingWindow(string message, string exePath, string bit, int processId)
+        /// <param name="processId"></param> 
+        public AnalyzingWindow(string exePath, string bit, int processId)
         {
             stopwatch = Stopwatch.StartNew();
             InitializeComponent();
-            processName = message;
+            processName = Path.GetFileNameWithoutExtension(exePath);
             this.processId = processId;
             Helper x = new Helper(processName, this.processId);
             x._timer.Start();
@@ -174,7 +144,7 @@ namespace DotMemMemoryProfiler
             {
                 try
                 {
-                    tempPath = Process.GetProcessesByName(processName)[0].MainModule.FileName;
+                    tempPath = Process.GetProcessById(processId).MainModule.FileName;
                 }
                 catch
                 {
@@ -534,8 +504,7 @@ namespace DotMemMemoryProfiler
                     string loc;
                     try
                     {
-                        Process proc = Process.GetProcessesByName(processName)[0];
-                        loc = proc.MainModule.FileName;
+                        loc = Process.GetProcessById(processId).MainModule.FileName;
                     }
                     catch
                     {
@@ -619,11 +588,11 @@ namespace DotMemMemoryProfiler
                     Loadlabel.Visibility = Visibility.Visible;
                     RuntimeHelper helperData = new RuntimeHelper();
                     Loadlabel.Content = "Getting Into Heap \n       Please wait";
-                    CLRStack stackDetails = new CLRStack(processName, processId);
+                    CLRStack stackDetails = new CLRStack(processId);
                     Task<ObservableCollection<AppDomainDetails>> temp = new Task<ObservableCollection<AppDomainDetails>>(stackDetails.GetData);
                     temp.Start();
                     appDomaianDataHolder[snapshotCounter] = await temp;
-                    CLRHeap heapDetails = new CLRHeap(processName, processId);
+                    CLRHeap heapDetails = new CLRHeap(processId);
                     Task<ObservableCollection<HeapHelper.HeapData>> heapDataGetter = new Task<ObservableCollection<HeapHelper.HeapData>>(heapDetails.ObservableCollection);
                     heapDataGetter.Start();
                     heapDataHolder[snapshotCounter] = await heapDataGetter;

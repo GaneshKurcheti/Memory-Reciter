@@ -28,10 +28,9 @@ namespace CLRMD
                 throw new Win32Exception(Marshal.GetLastWin32Error());
         }
         int processId;
-        public CLRHeap(string processName,int processId)
+        public CLRHeap(int processId)
         {
             this.processId = processId;
-            Process process = Process.GetProcessesByName(processName)[0];           
             Objects = new Dictionary<ClrType, ObservableCollection<HeapHelper.Object>>();
         }
 

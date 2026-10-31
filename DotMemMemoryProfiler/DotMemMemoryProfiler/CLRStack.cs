@@ -28,10 +28,9 @@ namespace DotMemMemoryProfiler
                 throw new Win32Exception(Marshal.GetLastWin32Error());
         }
         private int processId;
-        public CLRStack(string processName,int processId)
+        public CLRStack(int processId)
         {
-            Process process = Process.GetProcessesByName(processName)[0];
-            this.processId = processId;        
+            this.processId = processId;
         }
         public  ObservableCollection<AppDomainDetails> GetData()
         {           
